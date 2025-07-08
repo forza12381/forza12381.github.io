@@ -9699,7 +9699,7 @@ while(true)switch(s){case 0:s=2
 return A.x(A.aAo(),$async$aAv)
 case 2:A.bVH()
 q=$.bK()
-p=A.byR(A.bDY("https://dev-api.fitcircle.coach/api/v1/",B.r4,!0,B.r4,B.r4))
+p=A.byR(A.bDY("https://stg-api.fitcircle.coach/api/v1/",B.r4,!0,B.r4,B.r4))
 o=p.agA$
 o.F(o,A.a([new A.Ld(q.$1$0(t.Oy)),new A.P_(!1,!0,!0,!1,!1)],t.f8))
 o=t.kE
@@ -41860,7 +41860,7 @@ s=7
 return A.x(A.aFN(),$async$a3K)
 case 7:j=d
 s=8
-return A.x(n.ajm("https://dev-api.fitcircle.coach/api/device-token",A.m(["device_token",j,"user_id",b,"platform",$.bPA()?"ios":"android","app_version","v1","device_model","device model","language","en"],m,t.ob),k,l),$async$a3K)
+return A.x(n.ajm("https://stg-api.fitcircle.coach/api/device-token",A.m(["device_token",j,"user_id",b,"platform",$.bPA()?"ios":"android","app_version","v1","device_model","device model","language","en"],m,t.ob),k,l),$async$a3K)
 case 8:p=2
 s=6
 break
