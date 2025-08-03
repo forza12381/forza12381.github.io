@@ -10926,7 +10926,8 @@ bAS:function bAS(){},
 bJh(a){var s,r,q,p,o="body_parts_diameters",n="body_images",m="in_body_test",l="user_answers",k=a.i(0,"id")
 a.i(0,"subscription_id")
 a.i(0,"schedule_id")
-s=a.i(0,o)==null?null:A.bEW(a.i(0,o))
+if(a.i(0,o)==null)s=null
+else s=t._.b(a.i(0,o))?null:A.bEW(a.i(0,o))
 if(a.i(0,n)==null)r=A.a([],t.K7)
 else{r=a.i(0,n)
 r.toString
